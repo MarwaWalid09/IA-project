@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {    
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: url('2.jpg');
+ background-position: center;
+ background-size:cover ;
+ background-repeat: no-repeat;
+}
+
+
+#Logout {
+    background-color: red;
+    border-radius: 10px;
+    color: silver;
+}
+
+#Logout:hover {
+    background-color: rgb(197, 74, 74);
+}
+
+/* Login Card Start */
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+.Login-Card {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 140vb;}
+
+.screen-1 {
+    background:transparent;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+  
+    gap: 2em;
+}
+
+.screen-1 .logo {
+    margin-top: -3em;
+}
+
+.screen-1 .email {
+    background: transparent;
+    
+    border:0.5px solid #e2c1f5;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 50px;
+    color:#4d4d4d;
+}
+
+.screen-1 .email input {
+    outline: none;
+    border: none;
+}
+
+/* .screen-1 .email input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .email input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .email input::placeholder {
+  color: black;
+  font-size: 0.9em;
+} */
+.screen-1 .email ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+}
+
+.screen-1 .password {
+    background: transparent;
+    
+    border:0.5px solid #e2c1f5;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 50px;
+    color: #4d4d4d;
+}
+
+.screen-1 .password input {
+    outline: none;
+    border: none;
+}
+
+/*.screen-1 .password input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+}
+
+.screen-1 .password input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+}
+
+.screen-1 .password input::placeholder {
+    color: black;
+    font-size: 0.9em;
+}*/
+
+.screen-1 .password ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+}
+
+.screen-1 .password .show-hide {
+    margin-right: -5em;
+}
+
+.screen-1 .login {
+    padding: 1em;
+    background: #ce96ee;
+    color: black;
+    border: 1px solid #ce96ee;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    background: transparent;
+}
+.screen-1 .login:hover{
+    background-color: #ce96ee;
+    
+    transition: 1s;
+}
+
+.screen-1 .footer {
+    display: flex;
+    font-size: 0.7em;
+    color: #5e5e5e;
+    gap: 14em;
+    padding-bottom: 10em;
+}
+
+.screen-1 .footer span {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*Login Card End*/
+
+
+h1, h4, h3 {
+    text-align: center;
+
+}
+
+.Container {
+    margin-top: 50px;
+}
+
+
+input {
+    margin: 10px;
+}
+
+table, tr, th, td {
+    text-align: center;
+}
+
+table, input {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, tr, th, td, tbody {
+    border-radius: 20px;
+}
