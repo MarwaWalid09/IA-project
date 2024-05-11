@@ -55,26 +55,7 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-          <div class="container">
-            <a class="navbar-brand fs-4" href="#">
-              <span style="color:#ef8273;">Appointment</span>System</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="custom_nav-container" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="d_schedule.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="your schedule.html">Appointments</a>
-                </li>
-                
-              </ul>
-            </div>
-          </div>
-        </nav>
+      <?php require ( $_SERVER['DOCUMENT_ROOT'].'/FRONT END/php/nav/navbar.php');?>
       </div>
     </header>
     <!-- end header section -->
