@@ -7,7 +7,7 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 100px ;
 }
 
 .layout_padding2 {
@@ -589,7 +589,7 @@ a:focus {
 }
 
 .contact_section .heading_container {
-  margin-bottom: 25px;
+  margin: 30px;
 }
 
 .contact_section .heading_container h2 {
@@ -616,21 +616,7 @@ a:focus {
   color: #101010;
   background: #d6d6d6;
 }
-.contact_section .form_container input::-webkit-input-placeholder {
-  color: #000000;
-}
 
-.contact_section .form_container input:-ms-input-placeholder {
-  color: #000000;
-}
-
-.contact_section .form_container input::-ms-input-placeholder {
-  color: #000000;
-}
-
-.contact_section .form_container input::placeholder {
-  color: #000000;
-}
 
 .contact_section .form_container input.message-box {
   height: 175px;
